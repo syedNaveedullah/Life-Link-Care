@@ -1,0 +1,109 @@
+@media screen and (max-width: 415px) {
+  header {
+    width: 415px;
+    height: 3000px;
+  }
+
+  .content h1 {
+    font-weight: 100px;
+    font-size: 1.75rem;
+    line-height: 4.563rem;
+    text-align: center;
+  }
+
+  .content h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.563rem;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 0px;
+  }
+
+  .btn1 {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 6px auto;
+  }
+
+  #mainBtns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main-content {
+    margin-left: 90px;
+    width: 370px;
+    height: 460px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .para {
+    /* position: absolute;
+    top: 2090px;
+    left: 0px;
+    margin: 10px 0px 50px 0px;
+    font-size: 30px;
+    padding: 10px;
+    height: 30px;
+    width: 100vw; */
+    display: none;
+  }
+
+  .para p {
+    /* position: relative;
+    font-size: 12px; */
+    display: none;
+  }
+
+  .scanner-container {
+    margin-top: 3rem;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+
+  .botContainer {
+    margin-top: 12rem;
+    margin-left: 75px;
+  }
+
+  .botContainer h2 {
+    margin-left: -100px;
+  }
+
+  #generateredtext textarea {
+    width: 370px;
+  }
+
+  /* BOT  */
+  .media {
+    width: 400px;
+    /* margin-left: 337px; */
+  }
+
+  .chatContainer {
+    width: 400px;
+    height: 480px;
+    /* margin-left: 337px; */
+  }
+
+  .input-group {
+    width: 400px;
+    /* margin-left: 337px; */
+  }
+
+  .nav {
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 480px;
+    z-index: 5;
+    transition: 0.3s ease-in-out;
+  }
+}

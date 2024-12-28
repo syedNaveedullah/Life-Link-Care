@@ -1,0 +1,142 @@
+#generateredtext {
+  margin-top: 50px;
+}
+
+#generateredtext textarea {
+  background-color: rgba(78, 82, 97, 0.667);
+  border: none;
+  color: #fff;
+}
+
+#speak-bot-Btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+#scrollButton2 {
+  margin-top: 20px;
+}
+/* ===///////////////BOT/////////////////////////////// */
+.message {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: #fff;
+  list-style: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#messages {
+  max-height: 340px; /* Adjust based on your layout */
+  overflow-y: auto;
+}
+
+.user {
+  color: #fff;
+  text-align: right;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.bot-head {
+  float: left;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 10px;
+  color: red;
+  margin-left: 14px;
+  margin-top: 14px;
+  font-size: 30px;
+}
+
+.botContainer {
+  margin-top: 60px;
+}
+
+.botContainer h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.media {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 90px; 
+  background-color:rgb(78, 82, 97)
+}
+
+.chatContainer {
+  border: 1px solid #fff;
+  width: 1080px;
+  height: 370px;
+}
+
+.input-group {
+  display: flex;
+}
+.input-group input {
+  width: 980px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input-group button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(2, 2, 76);
+  background-color: blue;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* scrolling Bot text -----------------*/
+.scroll-div {
+  width: 1070;
+  height: 370px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/*/////////////////////////Sliding Bar/////////////////////*/
+.para {
+  position: absolute;
+  top: 1458px;
+  left: 0px;
+  background-color: #14151778;
+  margin: 10px 0px 50px 0px;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  height: 50px;
+  width: 100vw;
+}
+
+.para p {
+  color: #ff2e62;
+  position: relative;
+  /* left: 0px; */
+  animation-name: text;
+  animation-duration: 15s;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* animation-direction: reverse; */
+}
+@keyframes text {
+  from {
+    left: 1530px;
+  }
+  to {
+    left: -990px;
+  }
+}
